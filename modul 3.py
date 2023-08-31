@@ -34,17 +34,18 @@ for i in range(0, y):
     print(str(i+1))
 
 
+#gångertabell
 """
-gångertabell
-
 1)  1*1 = 1 
     1*2 = 2
     1*3 = 3
 
 12) 12*1 = 12
     12*2 = 24
-
+"""
     
 
-for table in range(1,12):
-   for y in range(1,11)
+for table in range(1,11):
+    print("tabell", table)
+    for y in range(1,11):
+        print(table, "*", y, "=", y*table)
